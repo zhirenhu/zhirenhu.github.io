@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<defs>
+<linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#e9f3ee"/><stop offset="1" stop-color="#fbf6ea"/>
+</linearGradient>
+<linearGradient id="river2" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#9fd3d6"/><stop offset="1" stop-color="#3f97a6"/>
+</linearGradient>
+<filter id="shadow2" x="-30%" y="-30%" width="160%" height="160%">
+  <feDropShadow dx="6" dy="12" stdDeviation="12" flood-color="#000" flood-opacity=".22"/>
+</filter></defs>
+<rect width="1600" height="900" fill="url(#sky2)"/>
+<circle cx="1180" cy="210" r="70" fill="#f6d48a" opacity=".9"/>
+<path d="M0 520 Q120 330 250 450 Q360 250 520 430 Q640 300 760 440 Q900 280 1050 450 Q1180 330 1300 440 Q1440 300 1600 430 V900 H0Z" fill="#b7d6bd"/>
+<path d="M0 610 Q150 420 330 560 Q470 360 640 560 Q760 470 860 580 Q1030 390 1220 570 Q1380 440 1600 560 V900 H0Z" fill="#74b087"/>
+<path d="M0 720 Q180 560 400 690 Q520 610 640 690 Q720 760 700 900 H0Z" fill="#3f8a5c"/>
+<path d="M1000 900 Q960 760 1060 690 Q1160 590 1300 680 Q1440 600 1600 660 V900 Z" fill="#3f8a5c"/>
+<path d="M810 584 C 790 620 760 640 770 670 C 790 730 640 770 650 900 L 990 900 C 980 800 1010 740 900 690 C 840 660 830 620 810 584 Z" fill="url(#river2)"/>
+<path d="M835 715 C 855 732 830 750 850 770" stroke="#e4f4f4" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8"/>
+<path d="M790 810 C 825 828 790 852 820 875" stroke="#e4f4f4" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8"/>
+<rect x="132.8" y="734.8" width="14.4" height="25.2" fill="#5b4636"/><polygon points="80.0,734.8 200.0,734.8 140.0,633.2" fill="#2f6b45"/><polygon points="93.2,683.1 186.8,683.1 140.0,587.0" fill="#2f6b45"/><polygon points="107.0,638.7 173.0,638.7 140.0,550.0" fill="#2f6b45"/>
+<rect x="221.6" y="758.8" width="16.8" height="31.2" fill="#5b4636"/><polygon points="160.0,758.8 300.0,758.8 230.0,633.0" fill="#245a3a"/><polygon points="175.4,694.7 284.6,694.7 230.0,575.8" fill="#245a3a"/><polygon points="191.5,639.8 268.5,639.8 230.0,530.0" fill="#245a3a"/>
+<rect x="494.0" y="779.6" width="12.0" height="20.4" fill="#5b4636"/><polygon points="450.0,779.6 550.0,779.6 500.0,697.3" fill="#2f6b45"/><polygon points="461.0,737.7 539.0,737.7 500.0,659.9" fill="#2f6b45"/><polygon points="472.5,701.8 527.5,701.8 500.0,630.0" fill="#2f6b45"/>
+<rect x="1112.5" y="762.4" width="15.0" height="27.6" fill="#5b4636"/><polygon points="1057.5,762.4 1182.5,762.4 1120.0,651.1" fill="#245a3a"/><polygon points="1071.2,705.7 1168.8,705.7 1120.0,600.5" fill="#245a3a"/><polygon points="1085.6,657.2 1154.4,657.2 1120.0,560.0" fill="#245a3a"/>
+<rect x="1243.4" y="737.2" width="13.2" height="22.8" fill="#5b4636"/><polygon points="1195.0,737.2 1305.0,737.2 1250.0,645.2" fill="#2f6b45"/><polygon points="1207.1,690.4 1292.9,690.4 1250.0,603.4" fill="#2f6b45"/><polygon points="1219.8,650.3 1280.2,650.3 1250.0,570.0" fill="#2f6b45"/>
+<rect x="1491.6" y="770.0" width="16.8" height="30.0" fill="#5b4636"/><polygon points="1430.0,770.0 1570.0,770.0 1500.0,649.0" fill="#245a3a"/><polygon points="1445.4,708.4 1554.6,708.4 1500.0,594.0" fill="#245a3a"/><polygon points="1461.5,655.6 1538.5,655.6 1500.0,550.0" fill="#245a3a"/>
+<path d="M300 210 Q316 192 330 210 Q344 192 360 210" stroke="#2b2b2b" stroke-width="6.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M396 170 Q409 156 420 170 Q431 156 444 170" stroke="#2b2b2b" stroke-width="4.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M459 240 Q470 227 480 240 Q490 227 501 240" stroke="#2b2b2b" stroke-width="4.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M533 190 Q547 174 560 190 Q573 174 587 190" stroke="#2b2b2b" stroke-width="5.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M622 250 Q632 239 640 250 Q648 239 658 250" stroke="#2b2b2b" stroke-width="3.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1385" y1="0" x2="1385" y2="215" stroke="#6b5a48" stroke-width="5"/>
+<g transform="rotate(-14 1385 230)" filter="url(#shadow2)">
+<path d="M1385 205 L1465 285 L1465 505 Q1465 525 1445 525 L1325 525 Q1305 525 1305 505 L1305 285 Z" fill="#b31b1b"/>
+<circle cx="1385" cy="268" r="16" fill="#fbf6ea"/>
+<text x="1385" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="170" font-weight="700" fill="#fbf6ea">?</text>
+</g>
+</svg>
