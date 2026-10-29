@@ -7,6 +7,8 @@
   --bg: #fff;
   --tag-bg: #f6eaea;
   --maxw: 980px;
+  --sans: "Source Sans 3", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  --serif: "Source Serif 4", "Noto Serif SC", "Songti SC", "SimSun", Georgia, serif;
 }
 
 * { box-sizing: border-box; }
@@ -15,8 +17,10 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 17px;
+  font-family: var(--sans);
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   line-height: 1.65;
   color: var(--text);
   background: var(--bg);
@@ -44,7 +48,7 @@ a:hover { text-decoration: underline; }
   display: flex; align-items: center; gap: 48px;
 }
 .nav .brand {
-  color: #fff; font-weight: 600; font-size: 20px; letter-spacing: .3px;
+  color: #fff; font-family: var(--serif); font-weight: 600; font-size: 23px; letter-spacing: .3px;
 }
 .nav .brand:hover { text-decoration: none; }
 .nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 26px; }
@@ -63,18 +67,19 @@ main {
 }
 
 h1 {
-  font-family: Georgia, "Times New Roman", "Songti SC", serif;
+  font-family: var(--serif);
   color: var(--accent);
-  font-weight: 500;
-  font-size: 32px;
+  font-weight: 600;
+  font-size: 34px;
+  letter-spacing: .2px;
   margin: 0 0 18px;
 }
-h1 .zh { font-size: 28px; margin-left: 6px; }
+h1 .zh { font-size: 29px; font-weight: 500; margin-left: 8px; letter-spacing: 2px; }
 
 h2 {
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 500;
-  font-size: 24px;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 25px;
   color: var(--text);
   border-bottom: 1px solid var(--line);
   padding-bottom: 6px;
@@ -94,7 +99,7 @@ h2:first-child { margin-top: 0; }
   border-radius: 4px;
   box-shadow: 0 2px 12px rgba(0,0,0,.12);
 }
-.about p { margin: 0 0 14px; text-align: justify; }
+.about p { margin: 0 0 14px; }
 
 .topic-1 { color: var(--accent); font-weight: 600; }
 .topic-2 { color: #2e7d32; font-weight: 600; }
@@ -120,14 +125,15 @@ h2:first-child { margin-top: 0; }
 }
 .paper:last-child { border-bottom: none; }
 .paper .title {
+  font-family: var(--serif);
   font-weight: 600;
-  font-size: 18px;
+  font-size: 19.5px;
+  line-height: 1.4;
   color: var(--text);
 }
 .paper .num {
   color: var(--accent);
-  font-family: Georgia, serif;
-  margin-right: 8px;
+  margin-right: 10px;
 }
 .paper .authors { color: var(--muted); margin-top: 2px; }
 .paper .venue { font-style: italic; margin-top: 2px; }
