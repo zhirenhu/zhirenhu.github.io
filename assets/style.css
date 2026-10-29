@@ -33,7 +33,13 @@ a:hover { text-decoration: underline; }
 .site-header {
   position: relative;
   height: 230px;
-  background: url("img/banner.jpg") center 40% / cover no-repeat;
+  /* banner.jpg is 1624x597 with the Cornell seal centred at (1414, 180).
+     Shift the image so the seal sits on the header's vertical centre line,
+     clamped so the image always covers the header. */
+  background: url("img/banner.jpg") center / cover no-repeat;
+  background-size: max(100%, 1038px) auto;   /* below 1038px wide, keep the seal tall enough to centre */
+  background-position-x: 88%;
+  background-position-y: clamp(calc(230px - 36.76vw), calc(115px - 11.084vw), 0px);
 }
 .site-header::after {
   content: "";
@@ -263,9 +269,14 @@ footer {
 
 /* ---------- responsive ---------- */
 @media (max-width: 760px) {
-  .site-header { height: 170px; }
+  .site-header {
+    height: 170px;
+    background-size: max(100%, 767px) auto;   /* seal centre (180 * 767/1624) = 85px = header middle */
+    background-position: 84.5% 0;
+  }
   .nav { flex-direction: column; align-items: flex-start; gap: 10px; }
-  .nav ul { gap: 18px; }
+  .nav ul { gap: 14px; }
+  .nav ul a { font-size: 14px; }
   .about { grid-template-columns: 1fr; gap: 24px; }
   .about .side { max-width: 170px; }
   .affil-logo { display: none; }
