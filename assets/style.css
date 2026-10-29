@@ -117,7 +117,6 @@ h2:first-child { margin-top: 0; }
 .info dd { margin: 0; }
 
 .affil-logo { margin-top: 22px; width: 100%; max-width: 270px; display: block; }
-.affil-logo.doerr { max-width: 170px; margin-top: 20px; }
 
 /* ---------- papers ---------- */
 .paper {
