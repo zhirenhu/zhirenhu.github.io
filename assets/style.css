@@ -164,6 +164,55 @@ h2:first-child { margin-top: 0; }
 
 .intro { margin: 0 0 10px; }
 
+/* ---------- blog ---------- */
+.page-title { margin-bottom: 6px; }
+.lang-switch { margin: 14px 0 6px; }
+.lang-switch a {
+  display: inline-block;
+  border: 1px solid var(--accent);
+  border-radius: 14px;
+  padding: 1px 14px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+.lang-switch a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+h2[id] { scroll-margin-top: 20px; }
+
+.post {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+.post:last-of-type { border-bottom: none; }
+.post .cover {
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #f2f2f2;
+}
+.post .cover img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform .3s ease;
+}
+.post .cover:hover img { transform: scale(1.04); }
+.post-meta { color: var(--muted); font-size: 13px; }
+.post-title {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.4;
+  margin: 4px 0 6px;
+}
+.post-title a { color: var(--text); }
+.post-title a:hover { color: var(--accent); text-decoration: none; }
+.post-excerpt { margin: 0 0 6px; color: #444; font-size: 15px; }
+.read-more { font-size: 14px; }
+.empty-note { color: var(--muted); font-style: italic; }
+
 /* ---------- footer ---------- */
 footer {
   border-top: 1px solid var(--line);
@@ -182,5 +231,6 @@ footer {
   .about .side { max-width: 170px; }
   .affil-logo { display: none; }
   .info { grid-template-columns: 105px 1fr; }
+  .post { grid-template-columns: 1fr; gap: 12px; }
   main { padding-top: 30px; }
 }
