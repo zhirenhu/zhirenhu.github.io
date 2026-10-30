@@ -166,6 +166,7 @@ h2:first-child { margin-top: 0; }
 .intro { margin: 0 0 10px; }
 
 /* ---------- blog ---------- */
+main > .back { font-size: 14px; display: inline-block; margin-bottom: 10px; }
 .page-title { margin-bottom: 6px; }
 .lang-switch { margin: 14px 0 6px; }
 .lang-switch a {
