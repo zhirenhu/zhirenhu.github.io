@@ -328,3 +328,27 @@ footer {
   .modules { grid-template-columns: 1fr; }
   main { padding-top: 30px; }
 }
+
+/* ---------- news timeline (GitHub-style) ---------- */
+.news { margin-top: 48px; }
+.timeline { list-style: none; margin: 0; padding: 0; position: relative; }
+.timeline::before {
+  content: ""; position: absolute; top: 6px; bottom: 6px; left: 15px;
+  width: 2px; background: #d0d7de;
+}
+.tl-item { position: relative; display: flex; gap: 16px; padding: 0 0 22px; }
+.tl-item:last-child { padding-bottom: 0; }
+.tl-icon {
+  position: relative; z-index: 1; flex: 0 0 32px; height: 32px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: #f6f8fa; border: 2px solid #fff; box-shadow: 0 0 0 1px #d0d7de; color: #57606a;
+}
+.tl-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.tl-green  { background: #1f883d; color: #fff; box-shadow: none; }
+.tl-purple { background: #8250df; color: #fff; box-shadow: none; }
+.tl-blue   { background: #0969da; color: #fff; box-shadow: none; }
+.tl-orange { background: #bc4c00; color: #fff; box-shadow: none; }
+.tl-gray   { background: #6e7781; color: #fff; box-shadow: none; }
+.tl-body { flex: 1; padding-top: 4px; }
+.tl-body time { display: block; font-size: 13px; font-weight: 600; color: var(--muted); letter-spacing: .3px; margin-bottom: 2px; }
+.tl-body p { margin: 0; }
