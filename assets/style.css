@@ -360,3 +360,9 @@ footer {
 .post-fig .fig-title { display: block; font-size: 14.5px; font-weight: 600; color: var(--text); }
 .post-fig .fig-src { display: block; }
 .post-fig .fig-src a { color: var(--muted); text-decoration: underline; text-decoration-color: #ccc; }
+
+/* ---------- footnotes ---------- */
+.post-page .fn-ref { font-size: 11px; line-height: 0; margin-left: 1px; }
+.post-page .fn-ref a { color: var(--accent); }
+.footnotes li { scroll-margin-top: 20px; word-break: break-word; }
+.footnotes .fn-back { text-decoration: none; margin-left: 4px; }
